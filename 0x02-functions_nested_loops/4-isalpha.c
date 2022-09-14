@@ -11,7 +11,7 @@
 */
 int _isalpha(int alphab)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	if ((alphab >= 97 && alphab <= 122) || (alphab >= 65 && alphab <= 90))
 	{
 		return (1);
 	}
