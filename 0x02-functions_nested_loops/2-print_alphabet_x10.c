@@ -9,11 +9,14 @@
 void print_alphabet_x10(void)
 {
 	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	int l = 0;
+	int l,i = 0;
 
 	for (l = 0; l < 10; l++)
 	{
-		_putchar(alpha);
+		for (i = 0; i < 26; i++)
+		{
+			_putchar(alpha[i]);
+		}
 	}
 	_putchar('\n');
 }
