@@ -9,7 +9,7 @@
 void print_alphabet_x10(void)
 {
 	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	int l,i = 0;
+	int l, i = 0;
 
 	for (l = 0; l < 10; l++)
 	{
@@ -17,6 +17,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(alpha[i]);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
