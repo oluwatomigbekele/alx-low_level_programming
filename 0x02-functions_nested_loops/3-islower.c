@@ -11,7 +11,7 @@
 
 int _islower(int c)
 {
-	if (islower(c))
+	if (islower(int var))
 	{
 		return (1);
 	}
