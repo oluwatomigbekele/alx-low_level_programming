@@ -2,15 +2,18 @@
 #include "unistd.h"
 
 /*
-* main - prints _putchar
+* main - prints _putchar message.
+*
+* Description: prints _putchar
 *
 * Return - Always 0 success
 */
-int  main(void)
+int main(void)
 {
-	char text[8]="_putchar";
-	int ite=0;
-	for (ite=0;ite<9;ite++)
+	char text[8] = "_putchar";
+	int ite = 0;
+
+	for (ite = 0 ; ite < 9 ; ite++)
 	{
 		_putchar(text[ite]);
 	}
