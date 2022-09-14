@@ -2,16 +2,17 @@
 #include "unistd.h"
 
 /**
- * _islower - checks lowercase characters
- *
- *Description: checks lowercase characters
- *
- * return: 0 (success)
- */
+* _islower - Shows 1 if the input is a
+* lowercase character. other cases, shows 0
+*
+* @c: The character in ASCII code
+*
+* Return: 1 for lowercase. 0 for the rest.
+*/
 
 int _islower(int c)
 {
-	if (islower(int var))
+	if (islower(c))
 	{
 		return (1);
 	}
