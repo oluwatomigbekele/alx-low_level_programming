@@ -1,13 +1,10 @@
 #include <main.h>
 
-/*
- * _isdigit - checks for digits
- *
- * @c: the argument to check
- *
- * Return: 1 for true and 0 otherwise
- *
- */
+/**
+* _isdigit - checks for digit character
+* @c: Variable text
+* Return: Always 0.
+*/
 
 int _isdigit(int c)
 {
