@@ -5,23 +5,20 @@
 */
 void print_diagonal(int n)
 {
-	int i, k;
+	int k, j, i;
 
-	if (n > 0)
-	{
-		for (i = 0; i < n; i++)
-		{
-			for (k = 0; k <= i; k++)
-			{
-				if (i == k)
-				{
-					_putchar('\\');
-					_putchar('\n');
-				}
-				_putchar(' ');
-			}
+	if (n <= 0)
 		_putchar('\n');
+	else
+	{
+		for (k = 0; k < n; k++)
+		{
+			i = k - 1;
+
+			for (j = 0; j <= i; j++)
+				_putchar(' ');
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
