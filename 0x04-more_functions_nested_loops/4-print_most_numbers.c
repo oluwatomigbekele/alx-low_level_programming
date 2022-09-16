@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* print_numbers - function that prints numbers
+* print_most_numbers - function that prints numbers
 * Description: print numbers from 0 to 9
 * Return: mul.
 */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	char num;
 
